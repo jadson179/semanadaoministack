@@ -15,6 +15,7 @@ mongoose.connect('mongodb+srv://jadson:99328092@cluster0-twxzm.mongodb.net/week1
     useUnifiedTopology: true
 })
 app.use(cors())
+
 app.use(express.json()) 
 app.use(routes)
 server.listen(3333)
